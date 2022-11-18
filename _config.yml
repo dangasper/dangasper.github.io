@@ -1,6 +1,5 @@
 title: "Daniel Gasper"
-url: "https://dangasper.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: ""
+url: "https://danielgasper.com"
 tagline: "Daniel Gasper's personal website"
 
 plugins:
