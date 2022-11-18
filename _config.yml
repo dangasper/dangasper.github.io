@@ -1,6 +1,14 @@
-title: Daniel Gasper
-baseurl: "" # the subpath of your site, e.g. /blog
+title: "Daniel Gasper"
 url: "https://dangasper.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+tagline: "Daniel Gasper's personal website"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-postcss-v2
+
+postcss:
+  cache: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -10,14 +18,19 @@ url: "https://dangasper.github.io" # the base hostname & protocol for your site,
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
+  - README.md
+  - tailwind.config.js
+  - postcss.config.js
